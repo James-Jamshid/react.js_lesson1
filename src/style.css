@@ -1,0 +1,21 @@
+.tab{
+    border: 1px solid black;
+    display: flex;
+
+    background-color: red;
+    width: 200px;
+    border-radius: 12px;
+    color: white;
+    padding-left: 10px;
+    box-shadow: 0 0 30px #000;
+    cursor: pointer;
+    
+}
+.tab:hover{
+    transform: scale(1.1);
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
